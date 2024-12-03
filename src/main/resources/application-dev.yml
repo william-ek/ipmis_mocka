@@ -1,0 +1,16 @@
+debug: true
+spring:
+  application:
+    name: mocka
+logging:
+  level: 
+    gov: DEBUG
+app:
+  api-test-type-file-path: C:/Users/willi/workspace/Deloitte/USPS/testUtility/mocka/mocka/src/main/resources/api-type-file.txt
+  client-id: "TANGO_CLIENT_ID"
+  api-key: "TANGO_API_KEY"
+  default-return-status: "ERROR"
+  default-return-message: "Unprocessable Input"
+  default-return-guid: ""
+  validation-schema-file-path: ""
+  
